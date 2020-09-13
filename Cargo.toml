@@ -1,0 +1,18 @@
+[package]
+name = "locale_name_code_page"
+version = "0.1.0"
+authors = ["Tatsunori Uchino <tats.u@live.jp>"]
+edition = "2018"
+categories = ["encoding"]
+keywords = ["encoding", "charset", "locale"]
+license = "MIT"
+description ="Rust library that helps us get code pages (then legacy encodings) used in Windows"
+readme = "README.md"
+repository = "https://github.com/tats-u/locale-name-code-page/"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+lazy_static = "1.4.0"
+ahash = "0.4.5"
+regex = "1"
